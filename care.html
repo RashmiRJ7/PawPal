@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Care Guidelines - PawsHome</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+       <nav class="navbar fixed-top navbar-expand-lg bg-light shadow-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">
+                <i class="fa-solid fa-paw" style="color: #ff6633;"></i> PawPal
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: rgb(2, 12, 21);" href="index1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:  rgb(2, 12, 21);" href="adopt.html">Adopt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:  rgb(2, 12, 21);" href="quiz.html">PetMatch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:  rgb(2, 12, 21);" href="care.html">Pet Care</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br><br>
+    <!-- Hero Section -->
+    <section class="care-hero py-5 bg-light">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3">Pet Care Guidelines</h1>
+            <p class="lead text-muted">Everything you need to know about keeping your pet healthy and happy</p>
+        </div>
+    </section>
+
+    <!-- Care Content -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Diet Section -->
+            <div class="col-lg-6 mb-4">
+                <div class="card care-card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold mb-4">🍖 Nutrition & Diet</h3>
+                        
+                        <div class="accordion" id="dietAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#dietDogs">
+                                        Dog Nutrition
+                                    </button>
+                                </h2>
+                                <div id="dietDogs" class="accordion-collapse collapse show" data-bs-parent="#dietAccordion">
+                                    <div class="accordion-body">
+                                        <p><strong>Puppies (2-12 months):</strong> High-protein puppy formula 3-4 times daily. Transition to adult food gradually around 12 months.</p>
+                                        <p><strong>Adults (1-7 years):</strong> Quality dry kibble or wet food twice daily. Portion size depends on weight and activity level.</p>
+                                        <p><strong>Seniors (7+ years):</strong> Senior formula with joint support, lower calories. May need softer food for dental health.</p>
+                                        <p><strong>Foods to Avoid:</strong> Chocolate, grapes, onions, garlic, xylitol, avocado, and cooked bones.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dietCats">
+                                        Cat Nutrition
+                                    </button>
+                                </h2>
+                                <div id="dietCats" class="accordion-collapse collapse" data-bs-parent="#dietAccordion">
+                                    <div class="accordion-body">
+                                        <p><strong>Kittens (2-12 months):</strong> High-protein kitten formula 3-4 times daily. Essential for growth and development.</p>
+                                        <p><strong>Adults (1-10 years):</strong> Quality cat food twice daily. Cats are obligate carnivores and need meat-based protein.</p>
+                                        <p><strong>Seniors (10+ years):</strong> Senior formula with kidney support. Monitor weight and adjust portions accordingly.</p>
+                                        <p><strong>Foods to Avoid:</strong> Onions, garlic, chocolate, dairy products, raw fish, and bones.</p>
+                                        <p><strong>Hydration:</strong> Always provide fresh water. Consider a water fountain to encourage drinking.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dietTips">
+                                        General Feeding Tips
+                                    </button>
+                                </h2>
+                                <div id="dietTips" class="accordion-collapse collapse" data-bs-parent="#dietAccordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Feed at consistent times each day</li>
+                                            <li>Use measuring cups for portion control</li>
+                                            <li>Limit treats to 10% of daily calories</li>
+                                            <li>Transition food gradually over 7-10 days</li>
+                                            <li>Keep food and water bowls clean</li>
+                                            <li>Monitor weight regularly</li>
+                                            <li>Consult your vet for specific dietary needs</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vaccination Section -->
+            <div class="col-lg-6 mb-4">
+                <div class="card care-card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title fw-bold mb-4">💉 Essential Vaccinations</h3>
+                        
+                        <div class="accordion" id="vaccinationAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#vaccineDogs">
+                                        Dog Vaccinations
+                                    </button>
+                                </h2>
+                                <div id="vaccineDogs" class="accordion-collapse collapse show" data-bs-parent="#vaccinationAccordion">
+                                    <div class="accordion-body">
+                                        <p><strong>Core Vaccines (Required):</strong></p>
+                                        <ul>
+                                            <li><strong>DHPP:</strong> Distemper, Hepatitis, Parvovirus, Parainfluenza - Start at 6-8 weeks, boosters every 3-4 weeks until 16 weeks</li>
+                                            <li><strong>Rabies:</strong> Given at 12-16 weeks, then every 1-3 years depending on local laws</li>
+                                        </ul>
+                                        <p><strong>Non-Core Vaccines (Based on Lifestyle):</strong></p>
+                                        <ul>
+                                            <li><strong>Bordetella:</strong> For dogs in boarding, daycare, or dog parks</li>
+                                            <li><strong>Leptospirosis:</strong> For dogs exposed to wildlife or standing water</li>
+                                            <li><strong>Lyme Disease:</strong> For dogs in tick-prone areas</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vaccineCats">
+                                        Cat Vaccinations
+                                    </button>
+                                </h2>
+                                <div id="vaccineCats" class="accordion-collapse collapse" data-bs-parent="#vaccinationAccordion">
+                                    <div class="accordion-body">
+                                        <p><strong>Core Vaccines (Required):</strong></p>
+                                        <ul>
+                                            <li><strong>FVRCP:</strong> Feline Viral Rhinotracheitis, Calicivirus, Panleukopenia - Start at 6-8 weeks, boosters every 3-4 weeks until 16 weeks</li>
+                                            <li><strong>Rabies:</strong> Given at 12-16 weeks, then every 1-3 years</li>
+                                        </ul>
+                                        <p><strong>Non-Core Vaccines (Based on Lifestyle):</strong></p>
+                                        <ul>
+                                            <li><strong>FeLV:</strong> Feline Leukemia for outdoor cats or multi-cat households</li>
+                                            <li><strong>FIV:</strong> Feline Immunodeficiency Virus for high-risk cats</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vaccineSchedule">
+                                        Vaccination Schedule & Tips
+                                    </button>
+                                </h2>
+                                <div id="vaccineSchedule" class="accordion-collapse collapse" data-bs-parent="#vaccinationAccordion">
+                                    <div class="accordion-body">
+                                        <p><strong>Important Reminders:</strong></p>
+                                        <ul>
+                                            <li>Keep vaccination records up to date</li>
+                                            <li>Schedule annual wellness exams</li>
+                                            <li>Discuss vaccine protocol with your vet</li>
+                                            <li>Watch for reactions after vaccination (rare)</li>
+                                            <li>Some vaccines require boosters every 1-3 years</li>
+                                            <li>Puppies/kittens need a series of shots, not just one</li>
+                                            <li>Pregnant pets should not be vaccinated</li>
+                                        </ul>
+                                        <p class="alert alert-info mt-3">Always consult with your veterinarian to create a personalized vaccination plan for your pet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Care Tips -->
+        <div class="row mt-4">
+            <div class="col-md-4 mb-4">
+                <div class="card text-center h-100">
+                    <div class="card-body">
+                        <div class="mb-3" style="font-size: 3rem;">🏃</div>
+                        <h5 class="card-title fw-bold">Exercise</h5>
+                        <p class="card-text">Dogs need 30-120 minutes daily. Cats need 20-30 minutes of play. Adjust based on age and breed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card text-center h-100">
+                    <div class="card-body">
+                        <div class="mb-3" style="font-size: 3rem;">✂️</div>
+                        <h5 class="card-title fw-bold">Grooming</h5>
+                        <p class="card-text">Regular brushing, nail trims, dental care, and baths. Professional grooming may be needed for certain breeds.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card text-center h-100">
+                    <div class="card-body">
+                        <div class="mb-3" style="font-size: 3rem;">🩺</div>
+                        <h5 class="card-title fw-bold">Vet Visits</h5>
+                        <p class="card-text">Annual checkups for adults, bi-annual for seniors. Keep up with preventatives for fleas, ticks, and heartworms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 PawsHome. All rights reserved. Made with ❤️ for rescue pets.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
